@@ -1,0 +1,438 @@
+body{
+    background: 100vh;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.Container_name{
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 25px;
+    
+    
+}
+
+.Container_header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+   
+}
+.Container_name{
+ font-size: 56px;
+ margin-left: 25px;
+ color: #F04C29;
+ 
+}
+.Container_ul{
+    display: flex;
+    text-decoration: none;  
+}
+
+.Container_ul li{
+    transition: all 300ms ease;
+}
+
+.Container_ul li:hover{
+    transform: scale(1.1);
+}
+
+.link{
+    padding: 16px;
+    font-family: 'Alfa Slab One', cursive;
+    color:  #F04C29;
+    
+}
+
+
+
+.container_seccion_mid{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container_seccion__mid{
+    background: #171616;
+    border-radius: 20px;
+    border: 5px solid #F04C29;
+}
+
+.img_sobremi{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    border: 5px solid #F04C29;
+    margin-top: 15px;
+    
+}
+
+.nombre_sobremi{
+    font-family: 'Alfa Slab One', cursive;
+    color: #F04C29;
+    font-size: 48px;
+    padding: 15px;
+}
+.lista_redes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    
+
+}
+
+.redes{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 36px;
+    border-radius: 100%; 
+    background-color: white;       
+}
+
+.redes:hover{
+    transition: 0.3ms;
+    background: #F04C29;
+}
+
+.parrafo_home{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f0f3f3f3;
+    text-align: center; 
+}
+
+.container_logos{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 75px;
+    
+}
+.logos{
+    width: 200px;
+    height: 200px;
+    margin: 0px 75px 25px 75px; 
+    border-radius: 25px;
+}
+.container_sobremi{
+    font-family: 'Alfa Slab One', cursive;
+    color: #F04C29;
+    font-size: 48px;
+    padding: 15px;
+   
+}
+.container_sobre_mi{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color:#F04C29; 
+    
+    
+}
+
+.parrafo_sobremi{
+    width: 650px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 25px;
+    color: #fcfcfc;
+    line-height: 36px;
+    letter-spacing: 2px;
+ 
+}
+
+.parrafo_sobremi span{
+    color:#F04C29; 
+}
+/* Skillls */
+
+.Skills{
+    display: flex;
+    margin: 30px;
+}
+
+.skills_container{
+    display: flex;
+    
+    
+}
+
+.skiills_container_icon{
+    display: flexbox;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #F04C29;
+    margin-left: 15px;
+    width: 96px;
+    height: 96px;
+ 
+}
+
+.skiills_container_icon:hover{
+    transition: 0.3ms;
+    background: #F04C29;
+    border: 2px solid #000000;
+}
+
+
+.logos_skills{
+    font-size: 32px;
+    color: #fcfcfc;  
+    margin:5px 0 0 5px; 
+}
+
+.nombre_skills{   
+    margin: 0px 0px 5px 5px;
+    line-height: 90px;
+    color: #F04C29;
+}
+.nombre_skills:hover{
+    color: #000000;
+}
+
+.Titulo_skills{
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color:#F04C29;
+    letter-spacing: 7px;
+    
+}
+
+ .Hobbies{ 
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0 25px 0;
+}
+
+.hobbies_container{
+    display: flex;
+    
+    
+    
+}
+
+.hobbies_container_icon{
+    display: flexbox;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #F04C29;
+    margin-right: 25px;
+    width: 96px;
+    height: 96px;
+ 
+}
+.hobbies_container_icon:hover{
+    transition: 0.3ms;
+    background: #F04C29;
+    border: 2px solid #000000;
+    
+}
+
+
+.logos_hobbies{
+    font-size: 32px;
+    color: #fcfcfc; 
+    margin:5px 0 0 5px; 
+}
+.nombre_hobbies{   
+    margin: 0px 0px 5px 5px;
+    line-height: 90px;
+    color: #F04C29;
+}
+.nombre_hobbies:hover{
+    color: #000000;
+}
+
+.Titulo_hobbies{
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color:#F04C29;
+    letter-spacing: 7px;
+    
+}
+
+.img_svg_task{
+    width: 380px;
+    height: 380px;
+    margin-left: 180px;
+}
+
+.Experiencia{
+    margin-top: 55px;
+    
+}
+.contairne_titulo_experiencia{
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color:#F04C29;
+    letter-spacing: 7px;
+
+}
+
+.contairner_display{
+   
+    display: flex;
+    justify-content: space-around;   
+}
+
+.container_experiencia{
+    border: 1px solid #F04C29;
+    padding: 1.35rem;
+    width: 300px;
+    height: 400px ;
+    margin: 0 25px 0 25px;
+    border-radius: 15px;
+    background: #171616;
+    align-items: center;
+}
+
+.img_experiencia{
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    border: 3px solid #F04C29#000000
+    
+}
+.img_experiencia:hover{
+    border: 3px solid #000000
+}
+
+.texto_experiencia{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    margin-top: 50px;
+    color: #fcfcfc;
+
+}
+.enlance_experiencia{
+    font-size: 25px;
+    color: #fcfcfc;
+    margin: 0 25px 0 25px
+   
+    
+}
+.Etiquetas_enlance{
+    display: flex;
+    justify-content: center;
+    
+}
+.container_experiencia:hover{
+    transition: 0.3ms;
+    background: #F04C29;
+   
+    
+}
+.container_experiencia a:hover{
+    transition: 0.3ms;
+    color: #000000;
+}
+.container_contacto{
+    margin: 85px 0 35px 75px;
+}
+
+.contacto_seccion{
+    margin-top: 35px;
+    
+
+}
+
+
+.titulo_contacto{
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color:#F04C29;
+    letter-spacing: 7px;  
+    
+}
+.Contacto{
+    display: block
+}
+
+.input-padron{
+    display: block;
+    margin: 12px auto;
+    padding: 10px 25px;
+    width: 85%;
+    
+}
+
+.enviar{
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    display: block;
+    margin: 25px auto;
+    width: 45%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #F6470E;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+   
+}
+
+form{
+    display: block;
+    justify-content:space-between;
+    width: 400px;
+    border: 2px solid #F04C29;
+    border-radius: 15px; 
+
+}
+
+textarea{
+    resize: none;
+}
+
+.contacto_seccion div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contacto_img{
+    
+    width: 500px;
+    height: 500px;
+}
+
+footer div {
+    margin-top: 25px;
+    background: #F6470E;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto_footer{
+    margin-top: 25px;
+}
